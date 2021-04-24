@@ -16,7 +16,8 @@ $ sbt jmh:run
 [info] the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 [info] Do not assume the numbers tell you what you want them to tell.
 [info] Benchmark      Mode  Cnt  Score   Error  Units
-[info] Bench.enumSet  avgt   50  6.529 ± 0.266  ns/op
-[info] Bench.maskSet  avgt   50  4.098 ± 0.275  ns/op
+[info] Bench.enumSet  avgt  100   6.605 ± 0.173  ns/op
+[info] Bench.hashSet  avgt  100  83.031 ± 9.414  ns/op
+[info] Bench.maskSet  avgt  100   4.200 ± 0.123  ns/op
 [success] Total time: 52 s, completed Apr 24, 2021 6:38:40 PM
 ```
